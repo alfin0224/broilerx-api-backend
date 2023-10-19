@@ -1,0 +1,26 @@
+####
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+  "title": "Catatan 2",
+  "content": "Isi Catatan 2"
+}
+
+####
+GET http://localhost:5000/notes
+
+####
+GET http://localhost:3000/notes/your_note_id
+
+####
+PUT http://localhost:3000/notes/your_note_id
+Content-Type: application/json
+
+{
+  "title": "Catatan 1 (Updated)",
+  "content": "Isi Catatan 1 (Updated)"
+}
+
+####
+DELETE http://localhost:3000/notes/your_note_id
