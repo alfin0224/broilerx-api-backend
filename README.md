@@ -60,6 +60,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+
 ## Test
 
 ```bash
@@ -72,6 +73,12 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Dokumentasi Swagger
+
+Silahkan akses http://localhost:5000/api-docs
+
+
 
 ## Support
 
